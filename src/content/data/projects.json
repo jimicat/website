@@ -1,10 +1,11 @@
 {
   "projects": [
     {
-      "name": "Blog",
-      "description": "我的博客",
+      "name": "My Blog",
+      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days. This is my main project that I am working on, and I am currently in the process of adding more features to the site.",
       "link": "https://blog.chendi.link",
-      "tools": "blog, notes, journal",
+      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+      "tools": "NextJS-Dark,TailwindCSS-Dark,Supabase-Dark,React-Dark,Figma-Dark,Markdown-Dark",
       "date": "2024-01-01",
       "custom": {
         "text": "View live site",
@@ -12,14 +13,19 @@
       }
     },
     {
-      "name": "运动同步",
-      "description": "我的个人运动同步平台",
-      "link": "https://smashrun.com/chen.di",
-      "date": "2021-03",
-      "custom": {
-        "text": "View live site",
-        "link": "https://smashrun.com/chen.di"
-      }
+      "name": "Fake News Detection",
+      "description": "A project where I am working on scraping truthfulness of comments and news relating to political figures and analyzing the data to determine the truthfulness of the news. I am currently in the web scraping phase of the project, and will need large amounts of data prior to training the model. I plan to use Tensorflow for model training, althought this may change as my familiarity with machine learning increases.",
+      "link": "https://github.com/raspberri05/fake-news-detection",
+      "langs": "Python-Dark",
+      "date": "Fall 2024 - Present"
+    },
+    {
+      "name": "ChairSense",
+      "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. The aim of this project is to solve that problem by creating a low-cost device that can detect obstacles and warn the wheelchair user so they don't hit objects or people. A future goal is to test this out with other wheelchair users",
+      "link": "https://github.com/raspberri05/chairSense",
+      "langs": "CPP",
+      "tools": "Arduino",
+      "date": "Fall 2021"
     }
   ]
 }
