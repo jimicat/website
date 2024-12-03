@@ -4,6 +4,7 @@
       "name": "Blog",
       "description": "我的博客",
       "link": "https://blog.chendi.link",
+      "tools": "blog, notes, journal",
       "date": "2024-01-01",
       "custom": {
         "text": "View live site",
